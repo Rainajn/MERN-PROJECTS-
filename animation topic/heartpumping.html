@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>heart pumping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         .heart {
+            width: 200px;
+            height: 100px;
+            margin: 100px auto;
+            position: relative;
+        } 
+
+        p {
+            font-size: 100px;
+            color: red;
+            animation-name: pump;
+            animation-duration: 3ms;
+            animation-iteration-count: infinite;
+            animation: pump 1s linear infinite;
+        }
+        @keyframes pump{
+            0%{
+                transform: scale(0.9);
+            }
+            25%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.1);
+            }
+            75%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(0.9);
+            }
+        }
+    </style>
+</head>
+
+<body>
+     <div class="heart">
+        <p> <i class="fa-regular fa-heart"></i></p>
+    </div>
+</body>
+
+</html>

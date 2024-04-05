@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.parent{
+    width: 1000px;
+    height: 500px;
+    border: 1px black solid;
+    margin: auto;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    transition: 1s;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    /* bottom: 0; */
+    /* inme se koi bhhi 1 lgakr change kr skte h */
+}
+.parent:hover .box{
+    left: 900px;
+    /* right: 900; */
+    /* top:400;  agr se lgaege toh top to bottom aega*/
+    /* inme se koi bhi 1 lgakr changes kr skte h */
+
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

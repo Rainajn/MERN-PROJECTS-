@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .container{
+        width: 600px;
+        height: 400px;
+        /* box-shadow: 0px 0px 0px 0.7px; */
+        display: flex;
+        margin: 100px auto;
+        background-color: grey;
+        justify-content: center;
+        align-items: center       ;
+    }
+.parent{
+    height: 40px;
+    width: 5px;
+    margin: 10px;
+    background-color: rgb(192, 65, 65);
+    transition: 1s;
+}
+.parent:hover{
+    transform: scale(2);
+}
+.box1{
+    height: 40px;
+    width: 5px;
+    background-color:rgb(73, 107, 184);
+    margin: 10px;
+    transition: 1s;  
+}
+.box1:hover{
+    transform: scale(1.7);
+}
+.box2{
+    height: 40px;
+    width: 5px;
+    background-color:rgb(94, 199, 94);
+    margin: 10px;
+    transition: 1s;  
+}
+.box2:hover{
+    transform: scale(1.9);
+}
+.box3{
+    height: 40px;
+    width: 5px;
+    background-color: rgb(214, 214, 72);
+    margin: 10px;
+    transition: 1s;  
+}
+.box3:hover{
+    transform: scale(2);
+}
+
+   </style>
+</head>
+<body>
+    <div class="container">
+    <div class="parent"> </div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>

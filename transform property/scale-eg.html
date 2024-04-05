@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .parent {
+            width: 400px;
+            height: 400px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .parent:hover img {
+            /* filter: blur(2px); */
+            /* filter se picture hover hone pr blur hogi */
+            filter: grayscale(1);
+            /* filter: brightness(100); */
+            transform: scale(1.2);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="https://about.fb.com/wp-content/uploads/2024/03/End-to-End-Encryption-Explainer_Header.jpg?w=1920"
+            alt="">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box{
+        height: 200px;
+        width: 200px;
+        border: 2px black solid;
+        margin:100px auto;
+        text-align: center;
+        transform-origin: top;
+        /* tranform-origin: bottom ; */
+
+        /* tranform-origin:left \right;
+        trasform:rotateY(0deg) */
+        /* alag alag comments ko use krne se alag output aaega */
+        transform: rotateX(0deg);
+        }
+
+        .box1{
+        height: 100px;
+        width: 100px;
+        border: 2px black solid;
+        margin:100px;
+        text-align: center;
+        transform-origin: top left;
+        /* top right   
+        bottom left
+        bottom right
+        bottom center
+        top center
+        in sbhi k sath use kr skte h */
+        transform: rotateZ(0deg);
+        /* isko inspect krne pr top left k alawa sare cornor move krege */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hello</h1>
+        </div> 
+        <div class="box1">
+            <h1>Hii</h1>
+            </div> 
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+.main{
+    width: 999px;
+    height: 539px;
+    background-color: aquamarine;
+    border: 1px black solid;
+}
+
+.row1{
+    width: 999px;
+    height: 99px;
+    background-color: chocolate;
+border-bottom: 1px black solid;
+}
+.row2{
+    width: 999px;
+    height: 39px;
+    background-color: burlywood;
+    border-bottom: 1px black solid;
+}
+.r2c{
+    width: 199px;
+    height: 39px;
+    float: left;
+    border-right: 1px black solid;
+    
+}
+.row3{
+    width: 999px;
+    height: 199px;
+    background-color: brown;
+    border-bottom: 1px black solid;
+}
+.r3c1{
+    width: 249px;
+    height: 38px;
+    border: 1px black solid;
+    border-bottom: 1px black solid;
+    float: left;
+}
+.r3c2{
+    width: 749px;
+    height : 198px;
+    float: left;
+}
+.row4{
+    width: 999px;
+    height: 49px;
+    text-align: justify;
+    border: 1px black solid;
+    background-color: paleturquoise;
+}
+.row5{
+    width: 999px;
+    height: 99px;
+    background-color: aquamarine;
+}
+.r5c1{
+    width: 332px;
+    height: 99px;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    float: left;
+}
+.row6{
+    width: 999px;
+    height: 49px;
+}

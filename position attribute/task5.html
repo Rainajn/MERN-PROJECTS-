@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 500px;
+            height: 400px;
+            border: 1 px rgba(0, 0, 0, 0.5) solid;
+            margin: auto;
+            position: relative;
+        }
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .box4{
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .box:hover .box1{
+            top: 30%;
+            left: 30%;
+            transition: 600ms;
+        }
+        .box:hover .box2{
+            top: 75%;
+            right: 80%;
+            transition: 600ms;
+        }
+        .box:hover .box3{
+            right: 30%;
+            bottom: 35%;
+            transition: 600ms;
+        }
+        .box:hover .box4{
+            bottom: 75%;
+            left: 80%;
+            transition: 600ms;
+        }
+    </style>
+   </head>
+<body>
+    
+</body>
+</html>

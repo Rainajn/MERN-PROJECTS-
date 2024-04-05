@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Animation</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+           
+            background-color: pink;
+            animation-name: abc;
+            /* animation ka nam dia h abc */
+            animation-duration: 10000ms;
+            position: absolute;
+
+        }
+
+        @keyframes abc {
+            0%, 100% {
+                background-color: red;
+                top: 0;
+                left: 0;
+
+            }
+/* same work krwana h islie 0,100 */
+            25% {
+                background-color: yellow;
+                top: 0px;
+                left: 400px;
+            }
+
+            50% {
+                background-color: green;
+                top: 400px;
+                left: 400px;
+            }
+
+            75% {
+                background-color: blueviolet;
+                top: 400px;
+                left: 0px;
+            }
+
+            100% {
+                background-color: brown;
+        
+            }
+        }
+
+        /* 0%,100% bhi likh skte h */
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

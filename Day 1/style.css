@@ -1,0 +1,61 @@
+.main{
+    width: 1000px;
+    height: 540px;
+    background-color: cyan;
+}
+.row1{
+    width : 1000px;
+    height: 100px;
+    background-color: burlywood;
+}
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: cornflowerblue;
+}
+.r2c{
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+    float: left;
+}
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: pink;
+}
+.r3c1{
+    width: 250px;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+}
+.r3c2{
+    width: 750px;
+    height: 200px;
+    float: left;
+}
+.r3c1-item{
+width: 250px;
+height: 40px;
+}
+.row4{
+width: 1000px;     
+height: 50px;
+background-color: brown;
+}
+.row5{
+    width: 1000px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.r5{
+    width: 333px;
+    height: 100px;
+    float: left;
+}
+.row6{
+    width: 1000px;
+    height: 50px;
+    background-color: chocolate;
+}

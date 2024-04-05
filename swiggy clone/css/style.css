@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    box-shadow: 0 0 2px grey;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    width: 10%;
+    padding: 10px 40px ;
+  }
+  nav{
+    width: 520px;
+    margin-left: 53px;
+    display: flex;
+    justify-content: space-between;
+  }
+.other{
+    width: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(40, 44, 63);
+    color: rgb(40, 44, 63);
+    padding-bottom: 5px;
+}
+.other:hover{
+    color: #f25511;
+    border-color: #f25511;
+}
+.icons-tray{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex: 1;
+    margin: 15px 40px;
+}
+.icon{
+   display: flex;
+   gap: 15px;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 20px;
+}
+.icon:hover{
+    color: #f25511; 
+}
+.mind{
+    width: 1000px;
+    margin: auto;
+}
+.heading{
+    width: 400px;
+    padding: 20px 20px;
+    font-family: assistant;
+}
+.dishes{
+    width: 100%;
+    padding-top: 0;
+    padding-left: 16px;
+    display: flex;
+}
+.dish-img{
+    width: 166px;
+    display: flex;
+    padding-bottom: 10px; 
+}
+.mind hr {
+    border: 2px;
+    height: 2px;
+    background-color: #eaeaec;
+    /* display: flex; */
+}
+.top-dish{
+    width: 1000px;
+    margin: auto;
+    padding: 20px 20px;
+}
+.row{
+
+}

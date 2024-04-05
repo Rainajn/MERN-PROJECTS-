@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    header {
+        padding: 20px;
+        background-color: #2e58d0;
+        margin-bottom: 20px;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    nav {
+        width: 1000px;
+        margin: auto;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    #menu li {
+        position: relative;
+        font-size: 20px;
+    }
+
+    #menu li:hover .child {
+        opacity: 1;
+        visibility: visible;
+        top: 25px;
+    }
+
+    .child {
+        transition: 700ms;
+        position: absolute;
+        width: 150px;
+        left: 0;
+        top: 125px;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .child li {
+        padding: 10px;
+    }
+
+    .child li:hover {
+        background-color: salmon;
+    }
+
+    .child li:hover .sub-child {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    .sub-child {
+        transition: 500ms;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        left: 100%;
+        top: 50px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+</style>
+   </head>
+<body>
+    <header>
+    <nav>
+        <h1>NavBar</h1>
+        <ul id="menu">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+                <ul class="child">
+                    <li>
+                        <a href="">Web Design</a>
+                        <ul class="sub-child">
+                            <li><a href="">Photoshop</a></li>
+                            <li><a href="">Illustrator</a></li>
+                            <li><a href="">Figma</a></li>
+                            <li><a href="">Adobe XD</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Web Dev</a>
+                        <ul class="sub-child">
+                            <li><a href="">HTML</a></li>
+                            <li><a href="">CSS</a></li>
+                            <li><a href="">JS</a></li>
+                            <li><a href="">ReactJs</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">SEO</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Product</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>

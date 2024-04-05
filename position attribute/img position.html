@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>task2</title>
+   <style>
+            .main{
+            width: 300px;
+            height: 300px;
+            /* border: 1px solid black; */
+            box-shadow: 0 0 2px grey;
+            position: relative;
+            margin: auto;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 500ms;
+        }
+        .main:hover img:nth-child(1){
+            left: 300px;
+        }
+        .main:hover img:nth-child(2){
+            left: -300px;
+        }
+        .main:hover img:nth-child(3){
+             top: 300px;
+        }
+   </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://picsum.photos/id/290/300/300" alt="">
+        <img src="https://picsum.photos/id/291/300/300" alt="">
+        <img src="https://picsum.photos/id/292/300/300" alt="">
+        <img src="https://picsum.photos/id/293/300/300" alt="">
+    </div>
+</body>
+</html>
